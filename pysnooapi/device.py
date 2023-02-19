@@ -35,6 +35,10 @@ class SnooDevice:
         return self._session.get("startTime") != None and self._session.get("endTime") == None
 
     @property
+    def security_token(self) -> str:
+        return self._api.security_token
+
+    @property
     def last_update(self) -> datetime:
         """Return device's last state update timestamp"""
         return self._device.get("updatedAt")

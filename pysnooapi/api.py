@@ -61,6 +61,10 @@ class API:  # pylint: disable=too-many-instance-attributes
     def username(self) -> str:
         return self.__credentials["username"]
 
+    @property
+    def security_token(self) -> str:
+        return self._security_token[0]
+
     @username.setter
     def username(self, username: str) -> None:
         self._invalid_credentials = False
