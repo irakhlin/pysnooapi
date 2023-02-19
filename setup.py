@@ -14,9 +14,9 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command  # type: ignore
 
 # Package meta-data.
-NAME = 'pysnooapi'
+NAME = 'pysnooapi2'
 DESCRIPTION = 'Python package for controlling Snoo Smart Sleepers from happiestbaby.com'
-URL = 'https://github.com/sanghviharshit/pysnoo'
+URL = 'https://github.com/irakhlin/pysnooapi'
 EMAIL = 'sanghvi.harshit@gmail.com'
 AUTHOR = 'Harshit Sanghvi'
 REQUIRES_PYTHON = '>=3.8'
